@@ -1,0 +1,20 @@
+.databaseList  { margin:40px 0 50px 0;}
+.databaseList .tn { margin-bottom:30px;}
+.databaseList .tn {  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;}
+.databaseList .tn:hover {   border-radius: 50%;
+  -webkit-transform: rotate(15deg);
+     -moz-transform: rotate(15deg);
+       -o-transform: rotate(15deg);
+      -ms-transform: rotate(15deg);
+          transform: rotate(15deg);}
+.databaseList li { float:left; margin-right:60px; text-align:center;}
+.databaseList li.last { margin-right:0}
+
+.databaseList-intranet { margin:40px 0 50px 0;}
+.databaseList-intranet .tn { height:295px; overflow:hidden;}
+.databaseList-intranet li { float:left; margin-right:75px; text-align:center;}
+.databaseList-intranet li.last { margin-right:0}

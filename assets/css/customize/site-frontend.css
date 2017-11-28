@@ -1,0 +1,67 @@
+body{
+    background:url(../../images/background/advance-bg-header.png) top center no-repeat;
+    -webkit-background-size: auto;
+    -moz-background-size: auto;
+    -o-background-size: auto;
+    -ms-background-size: auto;
+    background-size: auto;
+    margin:0px;
+}
+.breadcrumb-main {
+    background:url(../../images/background/breadcrumb.png) bottom center no-repeat;
+    position: relative;
+    margin-top:500px;
+    background-size: auto;
+}
+
+
+.BGrepeatY{
+    background:url(../../images/background/bg3.png) center repeat-y;
+    background-size: auto;
+}
+
+
+.BGbottom-home{
+    background:url(../../images/background/advance-footer-3.png) bottom center no-repeat;
+    background-size: auto;
+}
+.BGbottom{
+    background:url(../../images/background/bg4.png) bottom center no-repeat;
+    background-size: auto;
+}
+
+
+.content1-home-bg {
+    background:url(../../images/background/Content1-bg.png) bottom center no-repeat;
+    position: relative;
+    margin-top:0px;
+    background-size: auto;
+    padding-bottom:425px;
+}
+.content1-home {
+    position: absolute;
+    background-size: auto;
+}
+
+
+.content1 {
+    position: relative;
+    margin-top:0px;
+    background-size: auto;
+    padding-bottom:200px;
+}
+
+
+.content3-home {
+    position: relative;
+    margin-top:0px;
+    background-size: auto;
+    padding-bottom:1410px;
+}
+
+
+ul.none {
+    list-style: none;
+    padding: 0;
+    margin-top: 0px;
+}
