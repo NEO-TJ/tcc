@@ -172,7 +172,8 @@
                                     }
                                 }
                             ?>
-                            <th class="text-center" width="40">Edit</th>
+                            <th class="text-center" width="40">แก้ไข</th>
+                            <th class="text-center" width="40">ภาพกิจกรรม</th>
                         </tr>
                     </thead>
                 
@@ -206,10 +207,15 @@
                                     echo('<td class="text-center">
                                             <button type="submit" class="btn btn-success"
                                             id="editIccCard" name="iccCardId" value='.$row['id'].'>
-                                                Edit
+                                                แก้ไข
                                             </button>
                                         </td>');
-                                echo ('</tr>');
+                                    echo('<td class="text-center">
+                                        <a href="#" id="eventImage" class="button button-block button-rounded button-large">
+                                            ภาพกิจกรรม
+                                        </a>
+                                    </td>');
+                            echo ('</tr>');
                             }
                         ?>
                     </tbody>

@@ -46,11 +46,18 @@ function initDaterange() {
 */
 
 //    cb(start, end);
-}
+
 // -------------------------------------------------------------------------------------------- End Page Load.
 
 
-
+/*
+$('a#eventImage').on('click', function(e) {
+    alert("event image");
+    let baseUrl = window.location.origin + "/" + window.location.pathname.split('/')[1] + "/";
+    e.preventDefault();
+    $.post(baseUrl + 'eventImage/manipulate', {"iccCardId" : iccCardId}, function() { window.location.href = 'page.php' });  
+});
+*/
 // -------------------------------------------------------------------------------------------- Submit & Reset
 $('button#btnSave').on('click', function(e) {
     if (ValidateInputRequire()) {

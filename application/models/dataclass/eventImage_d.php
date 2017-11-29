@@ -4,8 +4,8 @@ class EventImage_d extends CI_Model {
 	// Property.
     public $tableName = "event_image";
 	public $colId = "id";
-    public $colFkMediaType = "Image_URL";
-    public $colMediaPath = "Caption";
+    public $colImageUrl = "Image_URL";
+    public $colCaption = "Caption";
     public $colPriority = "Priority";
     public $colFkIccCard = "FK_ICC_Card";
     public $colActive = "Active";

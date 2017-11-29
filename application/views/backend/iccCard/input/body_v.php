@@ -8,9 +8,21 @@
 <!-- ************************************** Panel ICC Card - Master -->
 		<div class="panel-heading">
 			<h4 class="panel-title">
-				<a data-toggle="collapse" data-parent="#collapseIccCardMasterParent" href="#collapseIccCardMaster">
-					1. ข้อมูลสถานที่ทำกิจกรรม
-				</a>
+				<div class="input-group">
+					<div class="row">
+						<div class="col-xs-8 col-md-8 col-lg-8">
+							<a data-toggle="collapse" data-parent="#collapseIccCardMasterParent" href="#collapseIccCardMaster"
+							style="color:white">
+								1. ข้อมูลสถานที่ทำกิจกรรม
+							</a>
+						</div>
+						<div class="col-xs-4 col-md-4 col-lg-4">
+							<a style="color:white" id="eventImage" href="<?php echo(base_url());?>eventImage/manipulate">
+								ภาพกิจกรรม
+							</a>
+						</div>
+					</div>
+				</div>
 			</h4>
 		</div>
 		<div class="panel-collapse collapse in" id="collapseIccCardMaster">
